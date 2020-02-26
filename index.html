@@ -23,8 +23,9 @@
         </button>
         <ul class="layui-nav" lay-filter="">
           <li class="layui-nav-item layui-this"><a href="index.html">首页</a></li>
-          <li class="layui-nav-item"><a href="html/product.html">产品</a></li>
-          <li class="layui-nav-item"><a href="html/about.html">关于</a></li>
+          <li class="layui-nav-item"><a href="#">产品</a></li>
+          <!-- <li class="layui-nav-item"><a href="html/product.html">产品</a></li> -->
+          <li class="layui-nav-item"><a href="#">关于</a></li>
         </ul>
       </div>
     </div>
@@ -34,11 +35,11 @@
     <div class="layui-carousel" id="banner">
       <div carousel-item>
         <div>
-          <img src="./res/static/img/banner1.jpg">
-          <div class="panel">
+          <img src="./res/static/img/banner11.jpg">
+          <!-- <div class="panel">
             <p class="title">鸿骏科技</p>
             <p>完美前端体验</p>
-          </div>
+          </div> -->
         </div>
         <div>
           <img src="./res/static/img/banner2.jpg">
@@ -53,47 +54,50 @@
   <!-- main部分 -->
   <div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
   <div class="main-product">
+    <div class="layui-container" style="position: relative;">
+      <img src="./res/static/img/额度.jpg">
+      <a href="http://gdaib-lihum.mikecrm.com/TN1y9aI">
+        <img src="./res/static/img/apply.png" style="position: absolute;right: 5%;top: 50px;">
+      </a>
+    </div>
     <div class="layui-container">
-      <p class="title">专为前端而研制的<span>核心产品</span></p>
+      <p class="title">专为贷款融资而研制的<span>公众号</span></p>
       <div class="layui-row layui-col-space25">
         <div class="layui-col-sm6 layui-col-md3">
-          <div class="content">
-            <div><img src="./res/static/img/Big_icon1.png"></div>
+          <div class="content" style="background-color: #faf8ec;border: none;">
             <div>
-              <p class="label">JS基础库</p>
-              <p>从小屏逐步扩展到大屏，最终实现所有屏幕适配，适应移动互联潮流。</p>
+              <p style="font-size: 32px;color: #666; margin: 10px 0px 30px;">额度高</a>
+              <p style="font-size: 18px; color: #666; margin: 10px 0px;">额度高
+                额度高达50万</p>
             </div>
-            <a href="javascript:;">查看产品 ></a>
+            <div style="background-image: url('./res/static/img/bg.png'); width: 200px;height: 140px;"></div>
           </div>
         </div>
         <div class="layui-col-sm6 layui-col-md3 ">
-          <div class="content">
-            <div><img src="./res/static/img/Big_icon2.png"></div>
+          <div class="content" style="background-color: #edf8fc;border: none;">
             <div>
-              <p class="label">CSS处理</p>
-              <p>从小屏逐步扩展到大屏，最终实现所有屏幕适配，适应移动互联潮流。</p>
+              <p style="font-size: 32px;color: #666; margin: 10px 0px 30px;">放款快</p>
+              <p style="font-size: 18px; color: #666; margin: 10px 0px;">资料齐全 快至1天放款</p>
             </div>
-            <a href="javascript:;">查看产品 ></a>
+            <div style="background: url('./res/static/img/bg.png') -200px 0px; width: 200px;height: 140px;"></div>
+          </div>
+        </div> 
+        <div class="layui-col-sm6 layui-col-md3 ">
+          <div class="content" style="background-color: #fcf3e2;border: none;">
+            <div>
+              <p style="font-size: 32px;color: #666; margin: 10px 0px 30px;">贷款利率</p>
+              <p style="font-size: 18px; color: #666; margin: 10px 0px;">年利率10.8%起</p>
+            </div>
+            <div style="background: url('./res/static/img/bg.png') -410px 0px; width: 200px;height: 140px;"></div>
           </div>
         </div>
         <div class="layui-col-sm6 layui-col-md3 ">
-          <div class="content">
-            <div><img src="./res/static/img/Big_icon3.png"></div>
+          <div class="content" style="background-color: #fdf3fc;border: none;">
             <div>
-              <p class="label">兼容性</p>
-              <p>从小屏逐步扩展到大屏，最终实现所有屏幕适配，适应移动互联潮流。</p>
+              <p style="font-size: 32px;color: #666; margin: 10px 0px 30px;">周期灵活</p>
+              <p style="font-size: 18px; color: #666; margin: 10px 0px;">可分12/24/36期还款  </p>
             </div>
-            <a href="javascript:;">查看产品 ></a>
-          </div>
-        </div>
-        <div class="layui-col-sm6 layui-col-md3 ">
-          <div class="content">
-            <div><img src="./res/static/img/Big_icon4.png"></div>
-            <div>
-              <p class="label">响应式</p>
-              <p>从小屏逐步扩展到大屏，最终实现所有屏幕适配，适应移动互联潮流。</p>
-            </div>
-            <a href="javascript:;">查看产品 ></a>
+            <div style="background: url('./res/static/img/bg.png') 0px -150px; width: 200px;height: 140px;"></div>
           </div>
         </div>
       </div>
@@ -101,56 +105,14 @@
   </div>
   <div class="main-service">
     <div class="layui-container">
-      <p class="title">为客户打造完美的<span>专业服务</span></p>
-      <div class="layui-row layui-col-space25 layui-col-space80">
-        <div class="layui-col-sm6">
-          <div class="content">
-            <div class="content-left"><img src="./res/static/img/home_img1.jpg"></div>
-            <div class="content-right">
-              <p class="label">1 对 1 前端指导</p>
-              <span></span>
-              <p>更有多个包含不同主题的Web组件，可快速构建界面出色、体验优秀的跨屏页面，大幅提升开发效率。</p>
-            </div>
-          </div>
-        </div>
-        <div class="layui-col-sm6">
-          <div class="content">
-            <div class="content-left"><img src="./res/static/img/home_img2.jpg"></div>
-            <div class="content-right">
-              <p class="label">鸿骏建站</p>
-              <span></span>
-              <p>
-                网站，一个全新的互联网营销渠道；
-                丰富的模板，助您零门槛线上宣传产品/服务
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="layui-col-sm6">
-          <div class="content">
-            <div class="content-left"><img src="./res/static/img/home_img3.jpg"></div>
-            <div class="content-right">
-              <p class="label">鸿骏商城</p>
-              <span></span>
-              <p>
-                一个帐号=小程序商城+微商城+电脑商城；
-                多样的营销玩法助您拓宽销售渠道，引爆销量
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="layui-col-sm6">
-          <div class="content">
-            <div class="content-left"><img src="./res/static/img/home_img4.jpg"></div>
-            <div class="content-right">
-              <p class="label">轻站小程序</p>
-              <span></span>
-              <p>轻巧高效的通用类小程序开发制作平台；免费体验</p>
-            </div>
+      <p class="title">融资贷款比你想的<span>更简单</span></p>
+      <div class="layui-row layui-col-space25">
+        <div class="layui-col-sm6 layui-col-md3">
+          <div class="content" style="background-color: #faf8ec;border: none;">
+            <img src="./res/static/img/flow.png" alt="">
           </div>
         </div>
       </div>
-      <div class="service-more"><a href="index.html">查看更多</a></div>
     </div>
   </div>
   <!-- footer部分 -->
@@ -158,7 +120,7 @@
     <div class="layui-container">
       <p class="footer-web">
         <a href="javascript:;">合作伙伴</a>
-        <a href="html/about.html">关于我们</a>
+        <a href="#">关于我们</a>
         <a href="javascript:;">企业概况</a>
         <a href="javascript:;">人才招聘</a>
         <a href="javascript:;">方案与产品</a>
